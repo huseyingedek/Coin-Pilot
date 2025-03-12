@@ -23,7 +23,7 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
                     collapsible
                     collapsed={collapsed}
                 >
-                    <SiderbarMenu />
+                    <SiderbarMenu collapsed={collapsed} />
                     <div className="bottom-0 absolute w-full">
                         <Button
                             className=" float-right -mr-8 p-0"
@@ -37,7 +37,7 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
                 </Sider>
                 <Layout>
                     <Header />
-                    <div>
+                    <div className="overflow-x-hidden  p-6 pb-0">
                         {children}
                     </div>
                 </Layout>

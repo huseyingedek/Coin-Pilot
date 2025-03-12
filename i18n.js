@@ -1,10 +1,11 @@
 module.exports = {
-    locales: ["en", "tr"],
+    locales: ["en", "tr", "ar", "es", "ru"],
     defaultLocale: "tr",
     interpolation: {
-        escapeValue: false,
+      escapeValue: false,
     },
     pages: {
-        "*": ["common"],
+      "*": ["common"],
     },
-};
+  };
+  

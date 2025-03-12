@@ -1,0 +1,11 @@
+{
+    "dashboard": "Dashboard",
+    "markets": "Markets",
+    "exchange": "Exchange",
+    "wallet": "Wallet",
+    "user": "User",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "myWallet": "My Wallet"
+}
